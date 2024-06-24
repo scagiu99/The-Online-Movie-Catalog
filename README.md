@@ -1,0 +1,2 @@
+# Applicazioni-Web-e-Cloud
+Project for the University Bachelor Degree Course of Web e Cloud Application
