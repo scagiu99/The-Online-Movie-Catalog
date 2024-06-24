@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Online Movie Catalog</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="image/icon.jpg">
+   
+    <script src="js/logout.js"></script>
+    <script src="js/statistiche.js"></script>
+
+</head>
+<body>
+
+    <!----NAVBAR---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid p-3 mb-2">
+          <a class="navbar-brand" id="titolo" href="film.html"><h1>The Online Movie Catalog</h1></a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="film.html">Film</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="statistiche.html">Statistiche</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="impostazioni_negoziante.html">Impostazioni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" onclick="logout();" href="index.html">Esci</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        </div>
+      </nav>
+
+   <!----SOTTOTITOLO---->
+   <div class="container-fluid tm-container-content tm-mt-60">
+    <div class="row mb-4 justify-content-center">
+        <h1 class="col-6 tm-text-dark" id="sottoclasse">
+            <b>Statistiche</b>
+        </h1>
+    </div>
+
+    <div id="statistiche" class="mx-auto col-xl-6 col-lg-6 col-md-6 col-sm-8 col-8">
+      <div style="text-align: center;" id="statisticheAssenti"><p>Statistiche non disponibili</p><br><br><br><br><br><br><br></div>
+      <div style="text-align: center;"><p id="acquistoMax"></p></div>
+      <div style="text-align: center;"><p id="noleggioMax"></p></div>
+      <div style="text-align: center;"><p id="settimanali"></p></div>
+      <div style="text-align: center;"><p id="giornoMax"></p></div><br><br><br><br><br>
+    </div>
+        <script>mostraStatistiche();</script>
+
+    </div>
+
+   
+
+
+    <!----FOOTER---->
+    <footer class="tm-footer"> 
+      <p>Progetto di Applicazioni Web e Cloud - Giulia Scarpa 931030</p>
+     </footer>
+
+</body>
+</html>

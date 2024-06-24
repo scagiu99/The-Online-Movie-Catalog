@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Online Movie Catalog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="image/icon.jpg">
+    
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    
+    <!----NAVBAR---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid p-3 mb-2">
+          <a class="navbar-brand" id="titolo"><h1>The Online Movie Catalog</h1></a>
+          </div>
+    </nav>
+
+    <!----IMMAGINE---->
+    <div id="tm-image-container">
+            <img src="image/cinema.jpeg">
+            <div class="card-img-overlay">
+                <p id="pInizio" class="card-text">
+                  <b class="text-danger">Benvenuto</b> su The Online Movie Catalog!<br>
+                  <b class="text-danger">Registrati</b> per poter avere accesso al nostro catalogo.
+                </p>
+              </div>
+    </div>
+
+    <!----BOTTONI CENTRALI---->
+    <div class="tm-container">
+        <div class="tm-main-nav">
+            <ul id="inline-popups">
+                <li class="tm-nav-item">
+                    <a href="registrazione_cliente.html" class="tm-nav-link">
+                        <img src="https://img.icons8.com/wired/64/000000/animation.png"/>
+                        <strong> Registrazione<br> Cliente</strong><br>
+                    </a>                
+                </li>
+                <li class="tm-nav-item">
+                    <a href="login_cliente.html" class="tm-nav-link" >
+                        <img src="https://img.icons8.com/wired/64/000000/comedy.png"/>
+                        <strong> Accesso<br> Cliente</strong><br>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="registrazione_negoziante.html" class="tm-nav-link">
+                        <img src="https://img.icons8.com/wired/64/000000/documentary.png"/>
+                        <strong> Registrazione<br> Negoziante</strong><br>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="login_negoziante.html" class="tm-nav-link">
+                        <img src="https://img.icons8.com/wired/64/000000/anonymous-mask.png"/>
+                        <strong> Accesso<br> Negoziante</strong><br>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>caricaGeneri();</script>
+    <script>caricaStorage();</script>
+  
+    <!----FOOTER---->
+    <footer class="tm-footer">
+        <p>Progetto di Applicazioni Web e Cloud - Giulia Scarpa 931030</p>
+    </footer>
+
+</body>
+</html>

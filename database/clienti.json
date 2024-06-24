@@ -1,0 +1,46 @@
+[
+    {
+        "nome": "Giulia",
+        "cognome": "Scarpa",
+        "email": "giulia.scarpa99@gmail.com",
+        "genere": "Romance",
+        "numCarta": "3333444455556666",
+        "cvv": "334",
+        "mese": "12",
+        "anno": "2023",
+        "password": "giuliascarpa"
+    },
+    {
+        "nome": "Anna",
+        "cognome": "Sam",
+        "email": "anna.sam1@gmail.com",
+        "genere": "Azione",
+        "numCarta": "3333444775558866",
+        "cvv": "954",
+        "mese": "10",
+        "anno": "2025",
+        "password": "annasam1"
+    },
+    {
+        "nome": "Marco",
+        "cognome": "Luca",
+        "email": "marco.luca@gmail.com",
+        "genere": "Thriller",
+        "numCarta": "3303444775558860",
+        "cvv": "123",
+        "mese": "09",
+        "anno": "2022",
+        "password": "marcoluca"
+    },
+    {
+        "nome": "Luca",
+        "cognome": "Rafael",
+        "email": "luca.rafael@gmail.com",
+        "genere": "Commedia",
+        "numCarta": "3322444775503860",
+        "cvv": "139",
+        "mese": "06",
+        "anno": "2025",
+        "password": "lucarafael"
+    }
+]

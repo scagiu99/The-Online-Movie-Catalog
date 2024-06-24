@@ -1,0 +1,173 @@
+[
+    {
+        "data": "2021-07-10T15:22:15.704Z",
+        "negozio": "LUCinema",
+        "cliente": "giulia.scarpa99@gmail.com",
+        "acquisti": [
+            467909,
+            424277
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:22:28.032Z",
+        "negozio": "Cinergia",
+        "cliente": "giulia.scarpa99@gmail.com",
+        "acquisti": [],
+        "noleggi": [
+            763532,
+            10376
+        ]
+    },
+    {
+        "data": "2021-07-10T15:22:40.841Z",
+        "negozio": "CineCittà",
+        "cliente": "giulia.scarpa99@gmail.com",
+        "acquisti": [
+            454527,
+            621151
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:22:54.245Z",
+        "negozio": "Cineflix",
+        "cliente": "giulia.scarpa99@gmail.com",
+        "acquisti": [
+            652837
+        ],
+        "noleggi": [
+            428836
+        ]
+    },
+    {
+        "data": "2021-07-10T15:31:48.352Z",
+        "negozio": "CinemaZero",
+        "cliente": "anna.sam@gmail.com",
+        "acquisti": [
+            588228
+        ],
+        "noleggi": [
+            739542,
+            637649
+        ]
+    },
+    {
+        "data": "2021-07-10T15:32:38.136Z",
+        "negozio": "LUCinema",
+        "cliente": "anna.sam@gmail.com",
+        "acquisti": [
+            580175
+        ],
+        "noleggi": [
+            649409
+        ]
+    },
+    {
+        "data": "2021-07-10T15:32:51.563Z",
+        "negozio": "LUCinema",
+        "cliente": "anna.sam@gmail.com",
+        "acquisti": [],
+        "noleggi": [
+            672741,
+            424277,
+            644583
+        ]
+    },
+    {
+        "data": "2021-07-10T15:33:09.938Z",
+        "negozio": "CineCittà",
+        "cliente": "anna.sam@gmail.com",
+        "acquisti": [
+            585216
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:33:22.777Z",
+        "negozio": "Cinergia",
+        "cliente": "anna.sam@gmail.com",
+        "acquisti": [
+            481879,
+            521007
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:35:05.054Z",
+        "negozio": "CinemaZero",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [
+            513310
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:35:16.796Z",
+        "negozio": "CineCittà",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [
+            522406
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:35:30.809Z",
+        "negozio": "Cineflix",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [
+            839858
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:35:45.953Z",
+        "negozio": "Cinergia",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [],
+        "noleggi": [
+            688258,
+            680593
+        ]
+    },
+    {
+        "data": "2021-07-10T15:35:58.484Z",
+        "negozio": "Cineflix",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [],
+        "noleggi": [
+            760167
+        ]
+    },
+    {
+        "data": "2021-07-10T15:36:09.892Z",
+        "negozio": "CineStreaming",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [
+            588228
+        ],
+        "noleggi": [
+            759902,
+            574060
+        ]
+    },
+    {
+        "data": "2021-07-10T15:37:14.440Z",
+        "negozio": "CineStreaming",
+        "cliente": "luca.rafael@gmail.com",
+        "acquisti": [
+            721625
+        ],
+        "noleggi": []
+    },
+    {
+        "data": "2021-07-10T15:53:59.484Z",
+        "negozio": "CineCittà",
+        "cliente": "giulia.scarpa99@gmail.com",
+        "acquisti": [],
+        "noleggi": [
+            681260,
+            672741
+        ]
+    }
+]

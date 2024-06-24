@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Online Movie Catalog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index.css">
+  
+    <link rel="icon" href="image/icon.jpg">
+
+    <script src="js/logout.js"></script>
+    <script src="js/impostazioni.js"></script>
+
+</head>
+<body>
+    
+    <!----NAVBAR---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid p-3 mb-2">
+        <a class="navbar-brand" id="titolo" href="catalogo.html"><h1>The Online Movie Catalog</h1></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="catalogo.html">Catalogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="ordini.html">Ordini</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="carrello.html">Carrello</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="impostazioni_cliente.html">Impostazioni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" onclick="logout();" href="index.html">Esci</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      </div>
+    </nav>
+
+     <!----FORM CON I DATI PERSONALI---->
+     <div style="text-align: center; margin-top: 1%; color: darkcyan;"><h1><b>Impostazioni</b></h1></div>
+     <div id="formArea" class="mx-auto col-xl-6 col-lg-6 col-md-6 col-sm-8 col-8" >
+     <form class="row g-3" id="formId">
+       <div class="col-md-6">
+         <label for="nome" class="form-label">Nome</label>
+         <input type="text" class="form-control" id="nome" readonly>
+       </div>
+       <div class="col-md-6">
+         <label for="cognome" class="form-label">Cognome</label>
+         <input type="text" class="form-control" id="cognome" readonly>
+       </div>
+       <div class="col-md-6">
+         <label for="email" class="form-label">Email</label>
+         <input type="email" class="form-control" id="email" readonly>
+       </div>
+       <div class="col-md-6">
+        <label for="genere" class="form-label">Genere Preferito</label>
+        <select id="genere" class="form-select">
+          <script>listaGeneri();</script>
+        </select>
+      </div>
+       <div class="col-md-6">
+         <label for="password" class="form-label">Password Attuale</label>
+         <input type="text" class="form-control" id="password">
+       </div>
+       <div class="col-md-6">
+        <label for="nPassword" class="form-label">Nuova Password</label>
+        <input type="text" class="form-control" id="nPassword">
+      </div>
+       <div class="col-12">
+        <button type="submit" class="btn btn-danger" style="float: left;" onclick="eliminaCliente();return false;">Elimina Account</button>
+         <button type="submit" class="btn btn-secondary" style="float: right;" onclick="salvaModificheCliente();">Salva Modifiche</button>
+       </div>
+     </form>
+     </div>
+     <script>mostraDatiCliente();</script>
+     
+
+
+    <!----FOOTER---->
+    <footer class="tm-footer"> 
+      <p>Progetto di Applicazioni Web e Cloud - Giulia Scarpa 931030</p>
+     </footer>
+
+</body>
+</html>
