@@ -1,4 +1,4 @@
-# The Online Movie Catalog - progetto di Applicazioni Web e Cloud
+# The Online Movie Catalog - project of Applicazioni Web e Cloud
 Project for the University Bachelor Degree Course of Web e Cloud Application (A.A. 2020-2021)
 
 The project aims to develop the web application The Online Movie Catalog which implements an online movie catalog management and ordering site. The Online Movie Catalog manages the process of organizing movie schedules from multiple online stores and ordering movies within an online videostreaming portal. It is composed of two main macro-scenarios:
