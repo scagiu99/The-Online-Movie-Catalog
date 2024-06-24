@@ -8,7 +8,8 @@ The project aims to develop the web application The Online Movie Catalog which i
 • order management
 
 There are two types of users: shopkeeper and customer.
-The characteristics of the two macro-scenarios introduced are analyzed in detail below.
+
+### WEBSITE REQUIREMENTS
 
 The first macro-scenario (schedule management) consists of managing films from catalog publication to sale. Merchant users must be able to connect to the application, modify their data/preferences and unsubscribe. For each shopkeeper, information such as shop name, telephone number, VAT number, addresses, reviews, etc. must be managed. Once registered, a shopkeeper can connect to the application and insert the products for sale by selecting them from a list common to all shopkeepers. This list is acquired via The Movie DB portal (https://www.themoviedb.org/ via API access with the REST methodology). For each product (film) on sale, the main information must be managed such as title, actors, director, genre and year of publication, furthermore there must be an illustrative photo (poster) whose reference can always be found via API. A seller can subsequently connect to the application and modify/delete existing products for which he is responsible.
 
