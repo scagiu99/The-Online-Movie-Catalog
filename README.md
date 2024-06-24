@@ -16,6 +16,6 @@ The second scenario (order management) consists of the classic management of cus
 
 When paying for the order the user can decide between two methods:
 
-•  perpetual purchase: the acquired film will always be available among the films available for viewing by the customer;
+•  perpetual purchase: the acquired film will always be available among the films available for viewing by the customer.
 
 •  rental: the film paid by the customer will be available in the film visible by the customer only for 72 hours from the day of purchase; subsequently, it will remain in the list but will be marked as unavailable for viewing.
